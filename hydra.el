@@ -14,6 +14,7 @@
 
 (defhydra hydra-zoom (global-map "<f2>")
   "zoom"
+  ("p" prettier-prettify "pretty")
   ("g" text-scale-increase "in")
   ("l" text-scale-decrease "out"))
 

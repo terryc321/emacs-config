@@ -45,6 +45,13 @@
 ;; helm framework 
 (load "/home/terry/emacs-config/helm.el")
 
+;; ido framework 
+;;(load "/home/terry/emacs-config/ido.el")
+
+;; ivy framework 
+;;(load "/home/terry/emacs-config/ivy.el")
+
+
 ;; projectile - project management
 (load "/home/terry/emacs-config/projectile.el")
 
@@ -54,7 +61,7 @@
 
 
 ;; what does counsel do ? counsel-ag
-(load "/home/terry/emacs-config/counsel.el")
+;;(load "/home/terry/emacs-config/counsel.el")
 
 (load "/home/terry/emacs-config/company.el")
 
@@ -109,10 +116,26 @@
 
 
 
+;; embark
+(load "/home/terry/emacs-config/embark.el")
+
+;; vertico
+(load "/home/terry/emacs-config/vertico.el")
+
+;; orderless -- minibuffer completion framework 
+(load "/home/terry/emacs-config/orderless.el")
+
+;; mct -- minibuffer fun *prot* 
+(load "/home/terry/emacs-config/mct.el")
+
+;; jest --- in emacs locks up , if run on output trashes javascript file ??
+;;(load "/home/terry/emacs-config/jest.el")
 
 
+;; no package called jsshell
+;;(load "/home/terry/emacs-config/jsshell.el")
 
-
+(load "/home/terry/emacs-config/after-save.el")
 
 
 

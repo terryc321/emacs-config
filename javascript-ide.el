@@ -27,13 +27,15 @@
   (add-hook 'css-mode 'lsp)
   (add-hook 'web-mode 'lsp))
 
-
+                            
 ;; ? what happened to company-lsp
 ;;(use-package company-lsp :ensure t)
 (use-package yasnippet :ensure t)
 
-(global-set-key (kbd "TAB") 'yas-expand)
+(global-set-key (kbd "<backtab>") 'yas-expand)
 ;;(global-set-key (kbd "TAB") 'hippie-expand)
+;;(global-set-key (kbd "TAB") #'(lambda ()(interactive) (insert "    ")))
+
 
 (setq lsp-language-id-configuration '((java-mode . "java")
 				      (python-mode . "python")

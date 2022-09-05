@@ -20,7 +20,7 @@
 (setq tab-width 4)
 
 ; And force use of spaces
-(setq indent-tabs-mode nil) 
+;(setq indent-tabs-mode nil) 
 
  ; same as syntax on in Vim
 (turn-on-font-lock)

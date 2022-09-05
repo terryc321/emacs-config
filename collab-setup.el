@@ -2,7 +2,6 @@
 ;; basic usability config
 (load "/home/terry/emacs-config/default.el")
 
-
 ;; setup load path
 ;;(add-to-list 'load-path "~/.emacs.d/lisp/")
 ;;(setq load-path "~/emacs-config/emacs-packages/")
